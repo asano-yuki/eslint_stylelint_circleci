@@ -1,0 +1,20 @@
+{
+  "name": "circleci_eslint_stylelint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch:dev": "webpack --mode development --watch",
+    "watch:build": "webpack --mode production --watch",
+    "eslint": "eslint src/*.js",
+    "stylelint": "stylelint src/*.css"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "stylelint": "^14.1.0",
+    "stylelint-config-standard": "^24.0.0",
+    "stylelint-order": "^3.1.1"
+  }
+}
